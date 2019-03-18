@@ -1,0 +1,131 @@
+{
+  "guid": "017fdd94-4a30-4657-9475-b1a684758531",
+  "entityType": "Order",
+  "externalId": null,
+  "revenueCenter": null,
+  "server": {
+    "guid": "5c305143-183f-49cf-b4d5-49a610826822",
+    "entityType": "RestaurantUser",
+    "externalId": null
+  },
+  "deliveryInfo": null,
+  "serviceArea": null,
+  "numberOfGuests": 1,
+  "diningOption": null,
+  "source": "In Store",
+  "voidDate": null,
+  "openedDate": "2019-02-24T13:48:44.206+0000",
+  "duration": 54,
+  "businessDate": 20190224,
+  "voidBusinessDate": null,
+  "checks": [
+    {
+      "guid": "9f42438a-a375-4983-9f80-c0dae5c33196",
+      "entityType": "Check",
+      "externalId": null,
+      "displayNumber": "2",
+      "amount": 1,
+      "tabName": null,
+      "taxExempt": false,
+      "payments": [
+        {
+          "guid": "e8cee462-78b4-4d83-a8ac-6006903f36d7",
+          "entityType": "OrderPayment",
+          "externalId": null,
+          "originalProcessingFee": null,
+          "amount": 1.06,
+          "tipAmount": 0,
+          "amountTendered": 0,
+          "cashDrawer": null,
+          "cardType": null,
+          "refundStatus": "NONE",
+          "houseAccount": null,
+          "type": "GIFTCARD",
+          "voidInfo": null,
+          "otherPayment": null,
+          "paidDate": "2019-02-24T13:49:38.617+0000",
+          "cardEntryMode": null,
+          "paymentStatus": "AUTHORIZED",
+          "paidBusinessDate": 20190224,
+          "last4Digits": null,
+          "refund": null
+        }
+      ],
+      "appliedDiscounts": [],
+      "voidDate": null,
+      "openedDate": "2019-02-24T13:48:44.206+0000",
+      "totalAmount": 1.06,
+      "selections": [
+        {
+          "guid": "69684faa-c35d-4ab4-9bff-41805ae52276",
+          "entityType": "MenuItemSelection",
+          "externalId": null,
+          "itemGroup": {
+            "guid": "46c963b8-a4c8-4cd0-9b7e-e1c431ed0b53",
+            "entityType": "MenuGroup",
+            "externalId": null
+          },
+          "deferred": false,
+          "item": {
+            "guid": "a7b9ee4d-e41b-46ac-9ba4-d56dd7b2fb20",
+            "entityType": "MenuItem",
+            "externalId": null
+          },
+          "quantity": 1,
+          "preDiscountPrice": 1,
+          "voidReason": null,
+          "optionGroup": null,
+          "displayName": "test",
+          "appliedDiscounts": [],
+          "tax": 0.06,
+          "modifiers": [],
+          "voidDate": null,
+          "fulfillmentStatus": "SENT",
+          "salesCategory": null,
+          "selectionType": "NONE",
+          "voidBusinessDate": null,
+          "createdDate": "2019-02-24T13:48:44.806+0000",
+          "preModifier": null,
+          "price": 1,
+          "modifiedDate": "2019-02-24T13:49:39.252+0000",
+          "voided": false,
+          "appliedTaxes": [
+            {
+              "entityType": "AppliedTaxRate",
+              "taxRate": {
+                "guid": "d5b88c05-1348-42ef-b1d3-577a83d70a80",
+                "entityType": "TaxRate"
+              },
+              "name": "State Tax",
+              "rate": 0.0625,
+              "taxAmount": 0.06,
+              "type": "PERCENT"
+            }
+          ]
+        }
+      ],
+      "voidBusinessDate": null,
+      "deleted": false,
+      "paidDate": "2019-02-24T13:49:38.616+0000",
+      "closedDate": "2019-02-25T11:05:00.024+0000",
+      "deletedDate": "1970-01-01T00:00:00.000+0000",
+      "modifiedDate": "2019-02-25T11:05:00.024+0000",
+      "appliedLoyaltyInfo": null,
+      "voided": false,
+      "taxAmount": 0.06,
+      "appliedServiceCharges": [],
+      "paymentStatus": "CLOSED",
+      "customer": null
+    }
+  ],
+  "deleted": false,
+  "paidDate": "2019-02-24T13:49:38.616+0000",
+  "closedDate": "2019-02-25T11:05:00.024+0000",
+  "deletedDate": "1970-01-01T00:00:00.000+0000",
+  "restaurantService": null,
+  "modifiedDate": "2019-02-25T11:05:00.024+0000",
+  "promisedDate": null,
+  "voided": false,
+  "estimatedFulfillmentDate": null,
+  "table": null
+}
