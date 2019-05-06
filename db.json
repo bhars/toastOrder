@@ -1,7 +1,7 @@
 {
   "orders": [
 {
-  "guid": "017fdd94-4a30-4657-9475-b1a684758531",
+  "id": "017fdd94-4a30-4657-9475-b1a684758531",
   "entityType": "Order",
   "externalId": null,
   "revenueCenter": null,
